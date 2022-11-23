@@ -30,10 +30,6 @@ service.interceptors.request.use(function (config) {
     console.error("You must set up the baseURL in the service's config");
   }
 
-//   if (!process.env.IS_ELECTRON && !config.url.includes('/login')) {
-//     config.params.realIP = '211.161.244.70';
-//   }
-
   if (!process.env.IS_ELECTRON) {
     config.params.realIP = '211.161.244.70';
   }
