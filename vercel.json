@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/:match*",
-      "destination": "https://api.music.kwaain.com/:match*"
+      "destination": "https://api.music.omni.moe/:match*"
     }
   ]
 }
